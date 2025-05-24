@@ -1,13 +1,16 @@
 [
   {
+    "id": 1,
     "title": "Create login page",
     "status": "in_progress"
   },
   {
+    "id": 2,
     "title": "Create register page",
     "status": "todo"
   },
   {
+    "id": 3,
     "title": "Create tasks page",
     "status": "done"
   }

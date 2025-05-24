@@ -1,7 +1,8 @@
 import { Express } from "express";
-import { getTasks } from "./tasks";
+import {getTask, getTasks} from "./tasks";
 
 export default function routes(app: Express): void {
-    app.get('/tasks', getTasks);
+    app.get('/api/tasks', getTasks);
+    app.get('/api/tasks/:id', getTask);
 
 }
